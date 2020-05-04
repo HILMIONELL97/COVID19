@@ -1,0 +1,35 @@
+section {
+    .err {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        img {
+            margin-top: 10rem;
+        }
+    }
+    .err__title {
+        font-size: 50px;
+        text-align: center;
+        color: $DARKBLUE;
+        padding: 2rem;
+    }
+    .err__btn {
+        width: 375px;
+        margin-bottom: 2rem;
+        padding: 1rem;
+        border-radius: 5px;
+        background-color: $DARKBLUE;
+        letter-spacing: 2px;
+        font-weight: bold;
+        color: $WHITE;
+        font-size: 2rem;
+        cursor: pointer;
+        border: none;
+        font-family: 'Cairo', sans-serif;
+        &:hover {
+            background-color: transparent;
+            color: $primarycolor;
+            border: 2px solid #1078AD;
+        }
+    }
+}

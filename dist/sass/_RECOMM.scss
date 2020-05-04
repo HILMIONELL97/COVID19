@@ -1,0 +1,54 @@
+.section4__reco {
+    background-color: $DARKBLUE;
+    margin-top: 5rem;
+    .section4__reco--title {
+        text-align: center;
+        color: #D0E5F0;
+        padding: 1.5rem;
+        font-size: 21px;
+    }
+    p {
+        padding: 1rem;
+        line-height: 2rem;
+        font-weight: bold;
+        color: $WHITE;
+        margin-bottom: 2rem;
+        margin-left: -4rem;
+        font-size: 20px;
+    }
+    span {
+        color: $BLACK;
+    }
+    .appel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        h4 {
+            color: $JEUNE;
+        }
+        .appel__site {
+            color: $WHITE;
+            text-decoration: none;
+            border-bottom: 2px solid $JEUNE;
+        }
+        .appel__btn {
+            width: 100%;
+            margin-left: 10px;
+            margin-top: 10px;
+            padding: 0.8rem;
+            border: none;
+            border-radius: 3px;
+            background-color: $JEUNE;
+            letter-spacing: 2px;
+            font-weight: bold;
+            color: $primarycolor;
+            font-size: 21px;
+        }
+    }
+    .section4__reco--cont {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

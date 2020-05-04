@@ -1,0 +1,76 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Cairo', sans-serif;
+            header {
+                flex-flow: nowrap row;
+                justify-content: space-between;
+                font-size: 1rem;
+                align-items: center;
+                max-width: 100%;
+                .header__bcg {
+                    background-image: url(/imgs/Mergedbar-1.svg);
+                    background-color: #96c5dc;
+                    position: fixed;
+                    top: 0;
+                    width: 100%;
+                    z-index: 1000;
+                }
+                .header__logo {
+                    cursor: pointer;
+                    margin-left: 2%;
+                    padding: 1% 0 0 1%;
+                }
+                .header__menu {
+                    float: right;
+                    flex-wrap: wrap;
+                    margin-right: 1rem;
+                    margin-top: 1rem;
+                }
+                .header__menu a {
+                    margin: 2rem;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    font-weight: bold;
+                    transition: 0.4s;
+                }
+                .header__menu__ACC {
+                    color: $primarycolor;
+                }
+                .header__menu__CON {
+                    color: $BLACK;
+                }
+                .header__menu__btn {
+                    padding: 5px 10px 5px 10px;
+                    background-color: transparent;
+                    border-radius: 10px;
+                    color: rgb(26, 81, 158);
+                    border: 1px solid rgb(26, 81, 158);
+                    margin: 20px;
+                    font-size: 20px;
+                    text-decoration: none;
+                    outline: 0;
+                    cursor: pointer;
+                }
+                .header__bcg1 {
+                    background-color: $JEUNE;
+                    margin-top: 6.6rem;
+                }
+                h3 {
+                    text-align: center;
+                    color: $BLACK;
+                    font-weight: bold;
+                }
+                p {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    line-height: 1.8rem;
+                    color: $primarycolor;
+                    font-weight: bold;
+                }
+            }
+        }

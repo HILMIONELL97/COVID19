@@ -1,0 +1,19 @@
+.transsmition {
+    text-align: center;
+    padding: 40px 140px 100px;
+    h1 {
+        color: #1078AD;
+        font-size: 36px;
+        font-weight: bolder;
+        margin-bottom: 5rem;
+    }
+    &__content {
+        display: flex;
+        justify-content: space-evenly;
+        h2 {
+            color: #1A519E;
+            font-weight: bolder;
+            margin-left: 5rem;
+        }
+    }
+}
